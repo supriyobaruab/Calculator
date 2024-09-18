@@ -13,7 +13,7 @@ body {
 .container {
   width: 300px;
   height: 450px;
-  background-color: antiquewhite;
+  background-color: #0f0f0f;
   border-radius: 1.5rem;
   outline: 5px solid gray;
   padding: 20px;
@@ -25,10 +25,12 @@ body {
   border-style: none;
   height: 50px;
   border-radius: 1rem;
-  outline: 2px solid;
+
   font-size: 20px;
   text-align: right;
   padding-right: 10px;
+  background-color: #0f0f0f;
+  color: white;
 }
 .keys {
   padding-top: 20px;
@@ -66,6 +68,7 @@ body {
 #equal:hover {
   opacity: 0.9;
   box-shadow: 1px 1px 5px rgb(36, 35, 35);
+  transform: scale(1.01);
 }
 #equal:active {
   opacity: 1;
@@ -73,6 +76,7 @@ body {
 .keys button:hover {
   opacity: 0.9;
   box-shadow: 1px 1px 5px rgb(36, 35, 35);
+  transform: scale(1.09);
 }
 .keys button:active {
   opacity: 1;
