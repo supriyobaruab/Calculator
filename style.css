@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,12 +11,14 @@ body {
   align-items: center;
 }
 .container {
-  width: 250px;
-  height: 400px;
+  width: 300px;
+  height: 450px;
   background-color: antiquewhite;
-  padding: 20px;
   border-radius: 1.5rem;
   outline: 5px solid gray;
+  padding: 20px;
+  padding-top: 35px;
+  box-shadow: 0px 0px 100px 20px gray;
 }
 .container input {
   width: 100%;
@@ -32,7 +35,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 .keys button {
   width: 50px;
@@ -67,10 +70,10 @@ body {
 #equal:active {
   opacity: 1;
 }
-.keys button:active {
-  opacity: 1;
-}
 .keys button:hover {
   opacity: 0.9;
   box-shadow: 1px 1px 5px rgb(36, 35, 35);
+}
+.keys button:active {
+  opacity: 1;
 }
