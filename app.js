@@ -4,7 +4,7 @@ let keys = document.querySelector(".keys").querySelectorAll("button");
 keys.forEach((btn) => {
   btn.addEventListener("click", () => {
     console.log(btn.value);
-    display.value = display.value + btn.value;
+    display.value += btn.value;
   });
 });
 
@@ -13,5 +13,9 @@ function clearScreen() {
 }
 
 function ansWer() {
-  display.value = eval(display.value);
+  try {
+    display.value = eval(display.value);
+  } catch {
+    display.value = "Error";
+  }
 }
