@@ -32,6 +32,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  padding-bottom: 15px;
 }
 .keys button {
   width: 50px;
@@ -42,6 +43,29 @@ body {
   color: aliceblue;
   font-size: 18px;
   font-weight: 600;
+}
+#equal {
+  width: 100%;
+  height: 50px;
+  border-style: none;
+  border-radius: 1rem;
+  background-color: rgb(36, 35, 35);
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 600;
+}
+.keys button.operator {
+  background-color: orangered;
+}
+#C {
+  background-color: red;
+}
+#equal:hover {
+  opacity: 0.9;
+  box-shadow: 1px 1px 5px rgb(36, 35, 35);
+}
+#equal:active {
+  opacity: 1;
 }
 .keys button:active {
   opacity: 1;
