@@ -9,11 +9,12 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
+  background-color: black;
 }
 .container {
   width: 300px;
   height: 450px;
-  background-color: antiquewhite;
+  background-color: white;
   border-radius: 1.5rem;
   outline: 5px solid gray;
   padding: 20px;
@@ -25,7 +26,6 @@ body {
   border-style: none;
   height: 50px;
   border-radius: 1rem;
-  outline: 2px solid;
   font-size: 20px;
   text-align: right;
   padding-right: 10px;
@@ -42,8 +42,8 @@ body {
   height: 50px;
   border-style: none;
   border-radius: 1rem;
-  background-color: rgb(36, 35, 35);
-  color: aliceblue;
+  background-color: antiquewhite;
+  color: black;
   font-size: 18px;
   font-weight: 600;
 }
